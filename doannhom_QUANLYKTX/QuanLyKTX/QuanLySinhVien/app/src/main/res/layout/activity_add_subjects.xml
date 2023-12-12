@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#669933"
+    tools:context=".ActivityAddSubjects">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Thêm Phòng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:background="@drawable/bg_add"
+        android:id="@+id/EditTextSubjectTitle"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Mã Phòng"
+        android:paddingLeft="15dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:background="@drawable/bg_add"
+        android:id="@+id/EditTextCredits"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Phòng"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/EditTextTime"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/bg_add"
+        android:layout_gravity="center"
+        android:hint="Số Lượng Sinh Viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/EditTextPlace"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/bg_add"
+        android:layout_gravity="center"
+        android:hint="Khu Vực"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <Button
+        android:id="@+id/buttonAddSubject"
+        android:layout_marginTop="10dp"
+        android:text="Thêm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <ImageView
+        android:src="@drawable/education"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+</LinearLayout>

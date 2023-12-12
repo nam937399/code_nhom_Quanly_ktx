@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#669933"
+    tools:context=".ActivityAddSubjects">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Cập Nhật Phòng KTX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/EditTextUpdateSubjectTitle"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:hint="Mã Phòng"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/EditTextUpdateCredits"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:hint="Phòng"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/EditTextUpdateTime"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:hint="Số Lượng Sinh Viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:id="@+id/EditTextUpdatePlace"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:hint="Khu Vực"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <Button
+        android:id="@+id/buttonUpdateSubject"
+        android:layout_marginTop="10dp"
+        android:text="Cập nhật"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

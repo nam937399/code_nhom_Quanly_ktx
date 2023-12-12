@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#669933"
+    tools:context=".ActivityAddSubjects">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Thêm Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/EditTextStudentName"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Tên Sinh Viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:layout_height="70dp">
+        <RadioButton
+            android:checked="true"
+            android:textColor="#000000"
+            android:id="@+id/radiobuttonMale"
+            android:text="Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textColor="#000000"
+            android:id="@+id/radiobuttonFemale"
+            android:layout_marginLeft="150dp"
+            android:text="Nữ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/EditTextSudentCode"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:hint="Mã sinh viên"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <EditText
+        android:inputType="datetime"
+        android:id="@+id/EditTextDateOfBirth"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_add"
+        android:paddingLeft="15dp"
+        android:hint="Năm Sinh"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_marginTop="10dp"
+        android:text="Thêm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:src="@drawable/student"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+</LinearLayout>

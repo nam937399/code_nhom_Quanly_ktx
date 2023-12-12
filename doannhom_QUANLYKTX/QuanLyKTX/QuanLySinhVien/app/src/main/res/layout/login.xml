@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#77558433"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:text="ĐĂNG NHẬP"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/username"
+        android:hint="Tên Tài Khoản"
+        android:height="50dp"
+        android:layout_marginTop="30dp"
+
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/password"
+        android:hint="Mật Khẩu"
+        android:height="50dp"
+        android:layout_marginTop="30dp"
+
+        android:textSize="25dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:id="@+id/sigin"
+        android:text="Đăng Nhập"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#02000000"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Chưa có tài khoản?"
+        android:textSize="20dp"></Button>
+
+</LinearLayout>
